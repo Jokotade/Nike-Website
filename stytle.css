@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #111;
+    background-color: #fff;
+    line-height: 1.6;
+    font-size: 16px;  
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    padding: 5px 40px;
+    display: flex;
+    align-content: center;
+     
+}
+
+/* navbar */
+
+.navbar {
+    height: 40px;
+    background-color: #f5f5f5;     
+    color: #111;
+}
+
+.navbar ul {
+list-style-type: none;
+display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    padding:  5px;
+    font-size: 12px;
+    font-weight: 500; 
+    text-align: center;  
+        
+}
+
+.navbar a:hover {
+   opacity: 0.5;
+}
+
+nav {
+    margin-left: auto;
+}
+
+/* navbar-2 */
+
+.container-2 {
+    width: 100%;
+    overflow: auto;
+    display: flex;  
+   
+}
+
+.nav-2 {
+    height: 60px;
+    background-color: #fff;     
+    color: #111;
+       
+}
+
+.nav-2 ul {
+list-style-type: none;
+display: flex;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: #111;
+    padding:  15px;
+    font-size: 16px;
+    font-weight: 500;       
+}
+
+.logo {
+margin-left: 40px;
+}
+
+.nav-2 a:hover {
+   opacity: 0.5;
+}
+
+.nav2 li { 
+   position: relative;
+   left: 40%;
+   right: 50%;
+   line-height: 0.5;  
+}
+
+.nav-right {
+    position: absolute;
+    right: 0px;
+    padding: 0 25px;
+    top: 9%;  
+  }
+
+.search {
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 32px;
+    height: 40px;  
+    padding: 7px;
+}
+
+.search:hover {
+    background-color: #EEEDED
+}
+ 
+::placeholder {
+    color: #d4d4d4;
+    opacity: 1; /* Firefox */
+    padding-right: 15px;
+  }
+
+.nav-right i {
+    position: absolute;
+}
+
+i {
+    padding: 5px;
+    min-width: 50px;
+    text-align: center;
+    color: #111;
+    }
+
+/* navbar-3 */
+
+.container-3 {
+   width: 80%;
+    margin: auto;
+    overflow: auto;
+   
+}
+
+.nav-3 {
+    height: 60px;
+    background-color: #f5f5f5;     
+    color: #111;
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    font-size: 12px;
+}
+
+.nav-3 a {
+    color: #111;
+    font-weight: 500;
+}
+
+/* showcase*/
+
+.showcase img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 430px;
+    object-fit: cover;
+    /* background-attachment: fixed; */  
+}
+
+/* showcase-2*/
+.container-4 {
+    max-width: 1100px;
+    margin:auto;
+    overflow: auto;
+    text-align: center;
+    padding: 40px  0px;
+}
+
+.text {
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 0.85;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background-color: #111;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    padding: 6px 28px;
+    cursor: pointer; 
+}
+
+.p-1 {
+line-height: 4.5;
+}
+
+/* container-5 */
+
+.container-5 {
+    display: flex;
+    margin: 10px 40px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.166667;
+}
+
+.pagination {
+    margin-left: auto;
+    display: inline-block;
+}
+
+.pagination a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+.pagination a:hover {
+    background-color: #d4d4d4;
+}
+
+.previous {
+    background-color: #f5f5f5;
+    color: #cccccc;
+  }
+
+.next {
+    background-color: #e5e5e5;
+    color: #111;
+  }
+
+  .round {
+     height: 48px;
+     width: 48px;
+     border-radius: 50%;
+  }
+
+/* container-6 */
+.container-6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 40px;
+    column-gap: 10px;
+    scroll-snap-type: y mandatory;
+  overflow-x: scroll;
+  display: flex;
+}
+
+.gallery h4 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color:#111;
+    font-weight: 500;
+     }
+      
+.gallery p {
+    color: #757575;
+    font-size: 16px;
+}
+
+.gallery span {
+margin-right: 40px;
+}
+
+
