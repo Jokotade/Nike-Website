@@ -326,3 +326,73 @@ h2 {
             color: #fff;
         }
 
+      /* container-7 */
+.container-7 {
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+   overflow: hidden;
+  }
+
+  .btn-3 {
+    position: relative;
+    bottom: 43%;
+    left: 6%;
+        display: inline-block;
+        border: none;
+        background-color: #fff;
+        color: #111;
+        border-radius: 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        padding: 6px 28px;
+        cursor: pointer;    
+    }
+
+    .btn-3:hover {
+        background-color: #b2b2b2;}
+    
+       .gallery .p-2 {
+            position: relative;
+            bottom: 50%;
+            left: 6%; 
+            color: #fff;
+        }
+        .gallery .p-3 {
+            position: relative;
+            bottom: 50%;
+            left: 6%; 
+            color: #fff;
+            font-size: 44px;
+            line-height: 0.8;
+            font-weight: 900;
+            letter-spacing: -4px;  
+        }
+
+ /* container-8 */
+ .container-8 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+   overflow: hidden;
+  }
+  .btn-4 {
+    position: relative;
+    bottom: 15%;
+    left: 10%;
+        display: inline-block;
+        border: none;
+        background-color: #fff;
+        color: #111;
+        border-radius: 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        padding: 6px 28px;
+        cursor: pointer;    
+    }
+
+    .btn-4:hover {
+        background-color: #b2b2b2;}    
+       
