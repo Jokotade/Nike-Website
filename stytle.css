@@ -394,5 +394,35 @@ h2 {
     }
 
     .btn-4:hover {
-        background-color: #b2b2b2;}    
-       
+        background-color: #b2b2b2;}   
+   
+   /* footer */     
+   .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 40px;
+    padding: 20px 180px
+
+   }   
+   
+   .footer ul {
+    list-style-type: none;
+   }
+
+   .footer a {
+    text-decoration: none;
+    color: #757575;
+   }
+    
+   .footer a:hover {
+       color: #111;
+   }
+
+   .footer h4 {
+       font-weight: bold;
+       margin: 0px 0px 24px;
+   }
